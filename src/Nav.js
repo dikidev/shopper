@@ -4,10 +4,10 @@ const Nav = () => (
     <nav className="App-nav">
         <ul>
             <li className="App-nav-item">
-                <button>Items</button>
+                <a>Items</a>
             </li>
             <li className="App-nav-item">
-                <button>Cart</button>
+                <a>Cart</a>
                 </li>
         </ul>
 

@@ -1,16 +1,16 @@
-import React from 'react';
-import Nav from './Nav';
-import './App.css';
-
+import React from "react";
+import Nav from "./Nav";
+import "./App.css";
+ 
 const App = () => {
-  return(
+  return (
     <div className="App">
-        <Nav/>
-        <main className="App-content">
-          <span>Empty</span>
-        </main>
+      <Nav />
+      <main className="app-content">
+        <span>Empty</span>
+      </main>
     </div>
   );
 };
-
+ 
 export default App;
