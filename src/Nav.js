@@ -16,6 +16,10 @@ const Nav = ({activeTab, onTabChange}) => {
                     {}
           <a onClick={() => onTabChange('cart')}>Cart</a>
         </li>
+        <li className={itemClass("cart")}>
+                    {}
+          <a onClick={() => onTabChange('cart')}>Fart</a>
+        </li>
         </ul>
 
     </nav>
